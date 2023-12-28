@@ -47,19 +47,33 @@ Time syntax for cronjob
 //  │ │ │ │ │ │
 
 //  * * * * * *
+
 We do not need to set the second in this string.
+
 If we set any "*" character into number or some specific character, it will change the scheduled time accordingly.
+
 For example: 
+
 If the scheduled_time is * * * * *, it means that the job run each minutes.
+
 If the scheduled_time is 0 * * * *, it means that the job run at the start (0 minutes) of each hour
+
 If the scheduled_time is 0 0 * * *, it means that the job run at the start (00:00) of each day
+
 If the scheduled_time is 0 0 1 * *, it means that the job run at first day of each month.
+
 Etc.
 
 Value range of each field
 Second:	      0-59
+
 Minute:	      0-59
+
 Hour:  	      0-23
+
 Day in month:	1-31
+
 Month:      	1-12 or JAN-DEC
+
 Day in week:	0-7 or SUN-SAT
+
