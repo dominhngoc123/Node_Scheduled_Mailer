@@ -29,6 +29,7 @@ Remember that we use scheduled_type for categorized the job in client view, not 
 The most important thing in this feature is scheduled_time.
 
 Time syntax for cronjob
+
 //  ┌────────────── Second (optional)
 
 //  │ ┌──────────── Minute
