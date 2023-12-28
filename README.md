@@ -30,13 +30,21 @@ The most important thing in this feature is scheduled_time.
 
 Time syntax for cronjob
 //  ┌────────────── Second (optional)
+
 //  │ ┌──────────── Minute
+
 //  │ │ ┌────────── Hour
+
 //  │ │ │ ┌──────── Day in month
+
 //  │ │ │ │ ┌────── Month
+
 //  │ │ │ │ │ ┌──── Day in week
+
 //  │ │ │ │ │ │
+
 //  │ │ │ │ │ │
+
 //  * * * * * *
 We do not need to set the second in this string.
 If we set any "*" character into number or some specific character, it will change the scheduled time accordingly.
